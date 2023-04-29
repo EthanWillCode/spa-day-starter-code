@@ -18,10 +18,10 @@
         <p th:text = "${item}"></p>
     </th:block>
     <th:block th:if ="${manipedi.equals('manicure')">
-        <p th:replace="fragments.html :: manicureDescription"></p>
+        <p th:replace="fragments :: manicureDescription"></p>
     </th:block>
     <th:block th:if ="${manipedi.equals('pedicure')">
-        <p th:replace="fragments.html :: pedicureDescription"></p>
+        <p th:replace="fragments :: pedicureDescription"></p>
     </th:block>
 </div>
 </body>
